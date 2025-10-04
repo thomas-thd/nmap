@@ -29,6 +29,7 @@ Place-toi a la racine du depot et assure-toi d'avoir cette arborescence :
 ├─ README.md              # ce fichier
 
 └─ scans/                 # <-- place ici tes fichiers .xml Nmap (obligatoire)
+    
     ├─ scan_192.168.0.0-24.xml
     
     ├─ host1.xml
