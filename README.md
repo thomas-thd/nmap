@@ -29,11 +29,11 @@ Place-toi a la racine du depot et assure-toi d'avoir cette arborescence :
  
  └─ scans/                      # <-- place ici tes fichiers .xml Nmap (obligatoire)
   
-   ├─ scan_192.168.0.0-24.xml  # <- exemple
+      ├─ scan_192.168.0.0-24.xml  # <- exemple
    
-   ├─ host1.xml
+      ├─ host1.xml
    
-   └─ ...
+      └─ ...
 
     
 - scans/ doit exister avant d'executer le script.
