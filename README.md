@@ -73,12 +73,19 @@ python nmap_inspect.py --per-host --csv
 ---
 
 Exemple de sortie
+
 === Host #1 — 192.168.0.10 ===
+
 IP: 192.168.0.10    Hostname: web01.local
+
 OS detectes: Linux 4.15 - 5.19 (accuracy=98%)
+
 Ports ouverts (2):
+  
   - 22/tcp: ssh  | OpenSSH 7.4
+  
   - 80/tcp: http  | nginx 1.14
+
 Estimation type d'equipement: Serveur (SSH + services web)
 
 ---
