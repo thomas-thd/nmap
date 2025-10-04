@@ -33,7 +33,8 @@ Place-toi a la racine du depot et assure-toi d'avoir cette arborescence :
     
     ├─ host1.xml
     
-    └─ ...
+    └─ 
+    ...
 - scans/ doit exister avant d'executer le script.
 - Le script ne cree pas automatiquement scans/ si absent : cree-le manuellement (mkdir scans) et place-y les fichiers XML.
 
