@@ -19,9 +19,7 @@ Le script est **simple, rapide et idéal pour des audits réseau pédagogiques o
 
 ---
 
-## Usage
-
-1. Place tes fichiers Nmap XML dans le dossier `scans/` (ex. `scans/scan_192.168.0.0-24.xml`).  
-2. Lancer le script (affichage console) :
+## Commande Nmap attendue
+Pour générer le fichier XML à analyser par le script, utiliser la commande suivante :  
 ```bash
-python nmap_inspect.py
+nmap -T4 -A -v -oX scans/scan_192.168.0.0-24.xml 192.168.0.0/24
