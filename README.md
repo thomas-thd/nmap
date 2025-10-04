@@ -22,11 +22,11 @@ Contenu du depot
 Configuration attendue des dossiers (structure)
 Place-toi a la racine du depot et assure-toi d'avoir cette arborescence :
 
-/ton-repo/
+ /ton-repo/
 
-├─ nmap_inspect.py        # script principal
+  ├─ nmap_inspect.py        # script principal
 
-├─ README.md              # ce fichier
+  ├─ README.md              # ce fichier
 
        └─ scans/                 # <-- place ici tes fichiers .xml Nmap (obligatoire)
     
